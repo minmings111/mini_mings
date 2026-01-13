@@ -12,7 +12,7 @@ spring:
 mybatis:
   mapper-locations: classpath:mappers/**/*.xml
   type-aliases-package: me.minimings.backend.model
-  # snake -> camel
+  # camel -> snake
   configuration:
     map-underscore-to-camel-case: true
     # performance improvement
